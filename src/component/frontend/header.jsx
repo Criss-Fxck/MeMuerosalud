@@ -23,7 +23,7 @@ function Header() {
         <div className="container d-flex align-items-center">
             <h1 className="logo me-auto"><a href="index.html">MeMuerosalud</a></h1>
             <Menu/>
-            <Link to="/login" className="appointment-btn scrollto"><span className="d-none d-md-inline">Pedir</span>Cita</Link>
+            <Link to="/login" className="appointment-btn scrollto"><span className="d-none d-md-inline">Pedir </span>Cita</Link>
         </div>
 </header>
     </>

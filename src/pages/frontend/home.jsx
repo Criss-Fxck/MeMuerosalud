@@ -1,18 +1,34 @@
 import Header from "../../component/frontend/header"
 import Footer from "../../component/frontend/footer"
-import { Link } from "react-router-dom"
+import Hero from "../../component/frontend/hero"
+import Whyussection from "../../component/frontend/whyussection"
+import Aboutsection from "../../component/frontend/aboutsection"
+import Countssection from "../../component/frontend/countssection"
+import Servicessection from "../../component/frontend/servicessection"
+import Appointmentsection from "../../component/frontend/appointmentsection"
+import Departmentssection from "../../component/frontend/departmentssection"
+import Doctorssection from "../../component/frontend/doctorssection"
+import Frecuentlyaskedquestionssection from "../../component/frontend/frecuentlyaskedquestionssection"
+import Testimonialssection from "../../component/frontend/testimonialssection"
+import Gallerysection from "../../component/frontend/gallerysection"
+import Contactsection from "../../component/frontend/contactsection"
 
 export default function Home() {
   return (
     <>
       <Header/>
-      <section id="hero" className="d-flex align-items-center">
-        <div className="container">
-          <h1>Welcome to Medilab</h1>
-          <h2>We are team of talented designers making websites with Bootstrap</h2>
-          <Link to="/login" className="btn-get-started scrollto">Pedir cita</Link>
-        </div>
-      </section>
+      <Hero/>
+      <Whyussection/>
+      <Aboutsection/>
+      <Countssection/>
+      <Servicessection/>
+      <Appointmentsection/>
+      <Departmentssection/>
+      <Doctorssection/>
+      <Frecuentlyaskedquestionssection/>
+      <Testimonialssection/>
+      <Gallerysection/>
+      <Contactsection/>
       <Footer/>
     </>
   )
